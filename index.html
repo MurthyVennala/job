@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-g" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- PWA & Theme -->
+    <link rel="manifest" href="/pwa/manifest.json" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Sarkari Jobs Hub" />
+    <link rel="apple-touch-icon" href="/pwa/icon-192x192.png" />
+
+    <title>Sarkari Jobs Hub</title>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style type="text/tailwindcss">
+      @layer base {
+        html {
+          scroll-behavior: smooth;
+        }
+        body {
+          @apply bg-white text-gray-900 dark:bg-gray-950 dark:text-gray-100 transition-colors duration-300;
+        }
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.1",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.1/",
+    "react/": "https://esm.sh/react@^19.1.1/",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.8.1",
+    "clsx": "https://esm.sh/clsx@^2.1.1"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

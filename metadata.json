@@ -1,0 +1,5 @@
+{
+  "name": "Sarkari Jobs Hub",
+  "description": "A React-based web application modeled after FreeJobAlert, offering a centralized hub for government job notifications, results, and admit cards. Features include multi-language support (English, Hindi, Telugu), dark/light mode, and quick navigation panels.",
+  "requestFramePermissions": []
+}

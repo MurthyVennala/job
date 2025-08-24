@@ -1,0 +1,23 @@
+{
+  "name": "Sarkari Jobs Hub",
+  "short_name": "Jobs Hub",
+  "description": "A React-based web application modeled after FreeJobAlert, offering a centralized hub for government job notifications, results, and admit cards.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/pwa/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/pwa/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
